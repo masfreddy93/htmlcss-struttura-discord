@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 
-.col {
+.col, .logo, .button {
     border: 1px dashed black;
 }
 
@@ -117,6 +117,50 @@
     min-height: 868px;
     background-color: rgb(73, 151, 76);
     flex-basis: 100%;
+}
+
+
+/* regole footer  */
+
+.footer {
+    background-color: rgb(31, 29, 29);
+}
+
+.footer1 {
+    padding: 10px 0 45px 0;
+}
+
+.footer1 .container{
+    display: flex;
+}
+
+.footer1 .col {
+    min-height: 536px;
+    flex-basis: 16.6%;
+    background-color: rgb(98, 206, 206);
+}
+
+.footer1 .col1 {
+    flex-grow: 1;
+    background-color: rgb(206, 112, 131);
+}
+
+
+.footer2 {
+    padding-top: 30px;
+}
+
+.footer2 .container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 18px 0;
+}
+
+.footer2 .tasto {
+    background-color: salmon;
+    min-height: 33px;
+    min-width: 82px;
 }
 
 
