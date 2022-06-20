@@ -7,24 +7,33 @@
 }
 
 
+/* regole generali  */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.col {
+    border: 1px dashed black;
+}
+
 /* regole header  */
 
 .header {
     background-color: rgb(126, 201, 211);
-    padding: 15px 0 15px 0;
+    padding: 20px 0 20px 0;
 }
 
 .header .container {
-    max-width: 900px;
-    margin: 0 auto;
+    /* max-width: 900px;
+    margin: 0 auto; */
     display: flex;
-    
 }
 
 .header .col {
     min-height: 34px;
     background-color: rgb(208, 153, 34);
-    border: 1px dashed black;
 }
 
 .header .col1, .header .col3 {
@@ -34,6 +43,55 @@
 .header .col2 {
     flex-grow: 1;
 }
+
+
+/* regole section  */
+
+
+/* regole section 1 */
+
+.section1 {
+    padding: 45px 0 45px 0;
+    background-color: blue;
+}
+
+.section1 .container {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .col {
+    min-height: 387px;
+    background-color: rgb(176, 108, 174);
+    flex-basis: 75%;
+}
+
+
+/* regole section 2  */
+
+.section2 {
+    padding: 45px 0 45px 0;
+    background-color: rgb(255, 255, 254);
+}
+
+.section2 .container {
+    display: flex;
+}
+
+.section2 .col1 {
+    min-height: 490px;
+    background-color: rgb(25, 105, 226);
+    flex-basis: 60%;
+}
+
+.section2 .col2 {
+    min-height: 490px;
+    background-color: rgb(255, 212, 253);
+    flex-basis: 40%;
+}
+
+
+
 
 
 
